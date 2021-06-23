@@ -170,6 +170,14 @@
 .di_1 .di_5 .di_8 .di_7 .ul__1 .li__1 .a__1 .p__2 {
   margin-left: 60px;
 }
+.di_1 .di_5 .di_8 .di_7 .ul__1:nth-child(1n) .span__5,
+.di_1 .di_5 .di_8 .di_7 .ul__1:nth-child(1n) .span__1 {
+  color: #e044b9 !important;
+  border-color: #e044b9 !important;
+}
+.di_1 .di_5 .di_8 .di_7 .ul__1:nth-child(1n) .p__2 {
+  color: #e044b9 !important;
+}
 .di_1 .di_5 .di_8 .di_7 .ul__1:nth-child(2n) .span__5,
 .di_1 .di_5 .di_8 .di_7 .ul__1:nth-child(2n) .span__1 {
   color: #49c564 !important;
