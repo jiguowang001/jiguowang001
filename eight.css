@@ -101,14 +101,100 @@
   color: #000;
 }
 .di_1 .di_5 {
-  width: 1423px;
+  width: 100%;
   background-color: #f7f7f7;
-}
-.di_1 .di_5 .ul_1 {
-  height: 286px;
-  width: 1000px;
-  background-color: pink;
   overflow: hidden;
+}
+.di_1 .di_5 .di_8 {
+  width: 1423px;
+}
+.di_1 .di_5 .di_8 .di_7 {
+  width: 1200px;
+  margin-right: 40px;
+  overflow: hidden;
+}
+.di_1 .di_5 .di_8 .di_7 .ul__1 {
+  padding: 0;
+  width: 220px;
+  height: 310px;
+  background-color: #ffffff;
+  overflow: hidden;
+  float: left;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.di_1 .di_5 .di_8 .di_7 .ul__1 .li__1 .a__1 .p__1 {
+  text-align: center;
+  color: #000000;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.di_1 .di_5 .di_8 .di_7 .ul__1 .li__1 .a__1 .img__1 {
+  width: 220px;
+  height: 130px;
+}
+.di_1 .di_5 .di_8 .di_7 .ul__1 .li__1 .a__1 .span__3 {
+  display: inline-block;
+  background-color: red;
+  color: #ffffff;
+  border-radius: 0 10px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.di_1 .di_5 .di_8 .di_7 .ul__1 .li__1 .a__1 .span__5 {
+  border: red 1px solid;
+  color: red;
+  margin-left: 58px;
+}
+.di_1 .di_5 .di_8 .di_7 .ul__1 .li__1 .a__1 .span__1 {
+  border: red 1px solid;
+  color: red;
+  margin-right: 31px;
+  margin-left: 15px;
+}
+.di_1 .di_5 .di_8 .di_7 .ul__1 .li__1 .a__1 .span__2 {
+  font-size: 20px;
+  color: red;
+  margin-left: 58px;
+  margin-top: 10px;
+}
+.di_1 .di_5 .di_8 .di_7 .ul__1 .li__1 .a__1 .span__6 {
+  display: inline-block;
+  color: #000000;
+  padding-top: 10px;
+  font-size: 20px;
+}
+.di_1 .di_5 .di_8 .di_7 .ul__1 .li__1 .a__1 .p__2 {
+  margin-left: 60px;
+}
+.di_1 .di_5 .di_8 .di_7 .ul__1:nth-child(2n) .span__5,
+.di_1 .di_5 .di_8 .di_7 .ul__1:nth-child(2n) .span__1 {
+  color: #49c564 !important;
+  border-color: #49c564 !important;
+}
+.di_1 .di_5 .di_8 .di_7 .ul__1:nth-child(2n) .p__2 {
+  color: #49c564 !important;
+}
+.di_1 .di_5 .di_8 .di_7 .ul__1:nth-child(3n) .span__5,
+.di_1 .di_5 .di_8 .di_7 .ul__1:nth-child(3n) .span__1 {
+  color: #c9c9c9 !important;
+  border-color: #c9c9c9 !important;
+}
+.di_1 .di_5 .di_8 .di_7 .ul__1:nth-child(3n) .p__2 {
+  color: #c9c9c9 !important;
+}
+.di_1 .di_5 .di_8 .di_9 {
+  height: 300px;
+}
+.di_1 .di_5 .di_8 .di_9 a {
+  color: #000000;
+}
+.di_1 .di_5 .di_8 .di_9 h3 {
+  text-align: center;
+  line-height: 300px;
 }
 .di_1 .di_6 {
   width: 1423px;
