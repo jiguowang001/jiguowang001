@@ -23,7 +23,7 @@
   margin-top: 50px;
 }
 .faxian ul {
-  width: 300px;
+  width: 200px;
   list-style: none;
   margin: 27px auto 0px;
 }
@@ -56,18 +56,19 @@ aside {
   width: 100%;
   background-color: #f7f7f7;
   overflow: hidden;
+  /*加载更多*/
 }
 aside .zhuti {
   width: 1070px;
   margin: auto;
   position: relative;
-  /*加载更多*/
 }
-aside .zhuti .zuixin {
+aside .zhuti .daogou {
   margin-top: 20px;
   overflow: hidden;
 }
-aside .zhuti .zuixin .kw {
+aside .zhuti .daogou .kw {
+  position: relative;
   border: 1px solid #b7babf;
   width: 200px;
   border-radius: 10px;
@@ -75,59 +76,65 @@ aside .zhuti .zuixin .kw {
   margin-left: 52px;
   margin-bottom: 20px;
 }
-aside .zhuti .zuixin .kw img {
+aside .zhuti .daogou .kw img {
   border-radius: 10px;
 }
-aside .zhuti .zuixin .kw .ziti {
+aside .zhuti .daogou .kw .ziti {
   font-size: 12px;
   text-align: center;
   margin: 20px 0px;
 }
-aside .zhuti .zuixin .kw .ziti a {
+aside .zhuti .daogou .kw .ziti a {
   text-decoration: none;
   color: #000;
 }
-aside .zhuti .zuixin .kw .ziti a:hover {
+aside .zhuti .daogou .kw .ziti a:hover {
   color: red;
 }
-aside .zhuti .zuixin .kw .jiaqian {
+aside .zhuti .daogou .kw .jiaqian {
   float: left;
   color: red;
   margin-bottom: 20px;
   margin-left: 20px;
 }
-aside .zhuti .zuixin .kw .xin {
+aside .zhuti .daogou .kw .xin {
   float: right;
   margin-bottom: 20px;
   margin-right: 20px;
   color: #b7babf;
   font-size: 12px;
 }
-aside .zhuti .jiazai {
+aside .zhuti .daogou .kw .no {
+  position: absolute;
+  bottom: -15px;
+  left: 0px;
+  border-radius: 10px;
+}
+aside .jiazai {
   position: relative;
   width: 150px;
   margin: 30px auto;
   text-align: center;
 }
-aside .zhuti .jiazai .kl {
+aside .jiazai .kl {
   text-decoration: none;
   color: red;
   display: inline-block;
 }
-aside .zhuti .jiazai .kl:hover {
+aside .jiazai .kl:hover {
   cursor: pointer;
 }
-aside .zhuti .ml {
+aside .ml {
   display: none;
   color: red;
 }
-aside .zhuti .ml img {
+aside .ml img {
   vertical-align: middle;
 }
-aside .zhuti .ml:hover {
+aside .ml:hover {
   cursor: pointer;
 }
-aside .zhuti .xianshi {
+aside .xianshi {
   width: 20px;
   text-align: center;
   position: absolute;

@@ -15,9 +15,10 @@ $(function() {
                     <p class="jiaqian"><span>${nItem.price}</span></p>
                     <p class="xin"><img src="../img/xin.png" alt="" width="10">${nItem.like}
                     <img src="../img/reply.png" alt="" width="10">${nItem.words}</p>
-                </div>`
+                    <img src="../img/listbg.jpg" alt="" width="200" class="no"></div>`
+
             })
-            $('.zuixin').html(strHtml)
+            $('.daogou').html(strHtml)
         }
     })
 })

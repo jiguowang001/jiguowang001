@@ -22,7 +22,7 @@
         margin-top: 50px;
     }
     ul{
-        width: 300px;
+        width: 200px;
         list-style: none;
         margin:27px auto 0px;
         li{
@@ -54,17 +54,19 @@
 /*最新*/
 aside{
     width: 100%;
+    // height: 300px;
     background-color: #f7f7f7;
     overflow: hidden;
     .zhuti{
         width: 1070px;
         margin: auto;
         position: relative;
-        .zuixin{
+        .daogou{
             margin-top: 20px;
             // border: 1px solid red;
             overflow: hidden;
             .kw{
+                position: relative;
                 border: 1px solid #b7babf;
                 width: 200px;
                 border-radius: 10px;
@@ -99,10 +101,17 @@ aside{
                     color: #b7babf;
                     font-size: 12px;
                 }
+                .no{
+                    position: absolute;
+                    bottom: -15px;
+                    left: 0px;
+                    border-radius: 10px;
+                }
             }
         }
-        /*加载更多*/
-        .jiazai{
+        }
+         /*加载更多*/
+         .jiazai{
             position: relative;
             width: 150px;
             // border: 1px solid red;
@@ -135,6 +144,4 @@ aside{
             bottom: -28px;
             left: 525px;
         }
-        }
-        
     }
