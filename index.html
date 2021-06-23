@@ -6,10 +6,273 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>极果首页</title>
+    <!-- 初始化文件引入 -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- 头和尾文件引入 -->
+    <link rel="stylesheet" href="./css/touwei.css">
+    <!-- 主题部分文件引入 -->
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- jquery文件引入 -->
+    <script src="./js/jquery.min.js"></script>
+    <!-- js文件引入 -->
+    <script src="./js/index.js"></script>
 </head>
 
 <body>
-
+    <!-- 头部 -->
+    <header>
+        <!-- 左侧log图 -->
+        <div><img src="./img/logonew.png" alt=""></div>
+        <!-- 中化建导航 -->
+        <ul>
+            <li><a href="#" id="red">首页</a></li>
+            <li><a href="#">酷玩</a></li>
+            <li><a href="#">导购</a></li>
+            <li><a href="#">试用</a></li>
+            <li><a href="#">报告</a></li>
+        </ul>
+        <!-- 右侧注册 -->
+        <div class="seek">
+            <a href="#"><img src="./img/search.png" alt=""></a>
+            <button>
+                    <span>注册</span>
+                </button>
+        </div>
+    </header>
+    <!-- 中间大图 -->
+    <div class="print">
+        <img src="./img/original.jpg" alt="" srcset="">
+        <!-- 动画 -->
+        <div class="donghua">
+            <p>幻响小贝HiFi2.1音箱</p>
+            <ul>
+                <li>126人申请</li>
+                <li>￥599</li>
+                <li>20台</li>
+            </ul>
+            <div class="qfd"></div>
+            <p id="daojishi"></p>
+            <p><a href="#">立即申请</a></p>
+        </div>
+    </div>
+    <!-- 渲染轮播 -->
+    <div class="lunbotu">
+        <p class="remen">热门使用</p>
+        <div class="xuanran"></div>
+        <div class="zuo">
+            <img src="./img/prev.png" alt="">
+        </div>
+        <div class="you">
+            <img src="./img/next.png" alt="">
+        </div>
+    </div>
+    <!-- 报告精品 -->
+    <article>
+        <div class="zhuti">
+            <div>
+                <p><a href="#">报告精选</a></p>
+                <p><a href="#">查看更多</a><img src="./img/readMore.png" alt=""></p>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <img src="./img/bg1.jpg" alt="">
+                        <p>空气净化器里面学问多得惊呆你，你选对了吗？</p>
+                        <p>● 苏苏</p>
+                        <p>
+                            <img src="./img/use5.png" alt=""> 3
+                            <img src="./img/reply.png" alt=""> 3
+                        </p>
+                    </li>
+                    <li>
+                        <img src="./img/bg4.jpg" alt="">
+                        <p>声音不是最优秀，但它形音完美的结合，足够打动人心</p>
+                        <p>● iAra</p>
+                        <p>
+                            <img src="./img/use5.png" alt=""> 3
+                            <img src="./img/reply.png" alt=""> 3
+                        </p>
+                    </li>
+                    <li>
+                        <img src="./img/bg3.jpg" alt="">
+                        <p>怎么骑都不会累的智能自行车：云马 C1试骑体验</p>
+                        <p>● 好吗</p>
+                        <p>
+                            <img src="./img/use5.png" alt=""> 3
+                            <img src="./img/reply.png" alt=""> 3
+                        </p>
+                    </li>
+                    <li>
+                        <img src="./img/bg4.jpg" alt="">
+                        <p>声音不是最优秀，但它形音完美的结合，足够打动人心</p>
+                        <p>● iAra</p>
+                        <p>
+                            <img src="./img/use5.png" alt=""> 3
+                            <img src="./img/reply.png" alt=""> 3
+                        </p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="./img/bg1.jpg" alt="">
+                        <p>空气净化器里面学问多得惊呆你，你选对了吗？</p>
+                        <p>● 苏苏</p>
+                        <p>
+                            <img src="./img/use5.png" alt=""> 3
+                            <img src="./img/reply.png" alt=""> 3
+                        </p>
+                    </li>
+                    <li>
+                        <img src="./img/bg4.jpg" alt="">
+                        <p>声音不是最优秀，但它形音完美的结合，足够打动人心</p>
+                        <p>● iAra</p>
+                        <p>
+                            <img src="./img/use5.png" alt=""> 3
+                            <img src="./img/reply.png" alt=""> 3
+                        </p>
+                    </li>
+                    <li>
+                        <img src="./img/bg3.jpg" alt="">
+                        <p>怎么骑都不会累的智能自行车：云马 C1试骑体验</p>
+                        <p>● 好吗</p>
+                        <p>
+                            <img src="./img/use5.png" alt=""> 3
+                            <img src="./img/reply.png" alt=""> 3
+                        </p>
+                    </li>
+                    <li>
+                        <img src="./img/bg4.jpg" alt="">
+                        <p>声音不是最优秀，但它形音完美的结合，足够打动人心</p>
+                        <p>● iAra</p>
+                        <p>
+                            <img src="./img/use5.png" alt=""> 3
+                            <img src="./img/reply.png" alt=""> 3
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="qfd"></div>
+        </div>
+    </article>
+    <!-- 导购精选 -->
+    <section>
+        <div class="zhuti">
+            <div>
+                <p><a href="#">导购精选</a></p>
+                <p><a href="#">查看更多</a><img src="./img/readMore.png" alt=""></p>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <img src="./img/g1.jpg" alt="">
+                        <p>空气净化器里面学问多得惊呆你，你选对了吗？</p>
+                        <p>
+                            <img src="./img/use5.png" alt=""> 3
+                            <img src="./img/reply.png" alt=""> 3
+                        </p>
+                        <img src="./img/listbg.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./img/g2.jpg" alt="">
+                        <p>声音不是最优秀，但它形音完美的结合，足够打动人心</p>
+                        <p>
+                            <img src="./img/use5.png" alt=""> 3
+                            <img src="./img/reply.png" alt=""> 3
+                        </p>
+                        <img src="./img/listbg.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./img/g3.jpg" alt="">
+                        <p>怎么骑都不会累的智能自行车：云马 C1试骑体验</p>
+                        <p>
+                            <img src="./img/use5.png" alt=""> 3
+                            <img src="./img/reply.png" alt=""> 3
+                        </p>
+                        <img src="./img/listbg.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./img/g4.jpg" alt="">
+                        <p>声音不是最优秀，但它形音完美的结合，足够打动人心</p>
+                        <p>
+                            <img src="./img/use5.png" alt=""> 3
+                            <img src="./img/reply.png" alt=""> 3
+                        </p>
+                        <img src="./img/listbg.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+            <div class="qfd"></div>
+        </div>
+    </section>
+    <!-- 发现酷玩 -->
+    <aside>
+        <div class="zhuti">
+            <div class="faxian">
+                <p><a href="#">发现酷玩</a></p>
+                <p class="gengduo"><a href="#">查看更多</a><img src="./img/readMore.png" alt=""></p>
+            </div>
+            <div class="kwxr"></div>
+            <div class="kwxr"></div>
+            <div class="jiazai">
+                <p id="q" class="kl">点击加载更多</p>
+                <p id="w" class="ml"><img src="./img/loading-icon.gif" alt="">正在加载</p>
+            </div>
+            <div class="xianshi">
+                <!-- <img src="./img/loading-icon.gif" alt="" id="w" class="ml"> -->
+            </div>
+        </div>
+    </aside>
+    <!-- 尾部 -->
+    <footer>
+        <div class="base">
+            <div><img src="./img/code.png" alt=""></div>
+            <div>
+                <img src="./img/logoImg.jpg" alt="">
+                <a href="#">全球借玩试用导购平台酷·新奇·好玩·品质</a>
+                <a href="#">微信添加"Jguolguo获取我们的服务。</a>
+            </div>
+            <div>
+                <a href="#">免费使用</a>
+                <a href="#">试用流程<br>如何提高成功率</a>
+            </div>
+            <div>
+                <a href="#">友情链接</a>
+                <a href="#">WEIBUSI</a>
+                <a href="#">搜抓IT</a>
+                <a href="#">搜狐数码</a>
+                <a href="#">智东西</a>
+                <a href="#">凤凰科技</a>
+                <a href="#">凤凰数码</a>
+                <a href="#">腾讯科技</a>
+                <a href="#">PConline</a>
+                <a href="#">泡泡网</a>
+                <a href="#">3W咖啡</a>
+                <a href="#">ZUK社区亿觅</a>
+                <a href="#">emie极客公园</a>
+                <a href="#">易迅易启玩</a>
+                <a href="#">果库</a>
+            </div>
+            <div>
+                <a href="#">购买攻略</a>
+                <a href="#">美亚海淘教程</a>
+                <a href="#">日亚海淘教程</a>
+                <a href="#">海淘转运攻略</a>
+                <a href="#">kickstarter</a>
+                <a href="#">众筹购买攻略</a>
+                <a href="#">indiegogo</a>
+                <a href="#">众筹购买攻略</a>
+            </div>
+            <div>
+                <a href="#">厂商合作</a>
+                <a href="#">关于极果</a>
+                <a href="#">联系我们</a>
+                <a href="#">商务合作:BD@jiguo.com</a>
+                <a href="#">CEO邮箱:CEO@jiguo.com</a>
+            </div>
+            <p> &copy;2016极果版权所有</p>
+            <a href="#" class="dingbu">^</a>
+        </div>
+    </footer>
 </body>
 
 </html>
