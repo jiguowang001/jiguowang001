@@ -229,12 +229,12 @@
   display: inline-block;
   height: 23px;
   width: 26px;
-  background-image: url(img/xinRedo.png);
+  background-image: url(../img/xinRedo.png);
   margin-top: 24px;
   margin-left: 18px;
 }
 .di_1 .di_3 .di_5 .ul_1 span:hover {
-  background-image: url(img/xinRedh.png);
+  background-image: url(../img/xinRedh.png);
 }
 .di_1 .di_3 .di_5 .ul_1 p {
   color: #9fa3a4;
@@ -248,12 +248,12 @@
   display: inline-block;
   height: 23px;
   width: 26px;
-  background-image: url(img/share_yj1.png);
+  background-image: url(../img/share_yj1.png);
   margin-top: 24px;
   margin-left: 18px;
 }
 .di_1 .di_3 .di_5 .ul_14 span:hover {
-  background-image: url(img/shareh_yj1.png);
+  background-image: url(../img/shareh_yj1.png);
 }
 .di_1 .di_3 .di_5 .ul_14 p {
   color: #9fa3a4;

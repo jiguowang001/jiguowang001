@@ -1,6 +1,6 @@
 $(function() {
     $.ajax({
-        url: 'http://localhost:3000/useing/master',
+        url: 'http://localhost:3000/useing/public',
         type: 'GET',
         dataType: 'JSON',
         success: function(data) {

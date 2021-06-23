@@ -74,6 +74,19 @@
   line-height: 40px;
   font-size: 20px;
 }
+.di_1 .di_3 .ul_1 li .a_2 {
+  color: red;
+}
+.di_1 .di_3 .ul_1 li a {
+  color: #000;
+}
+.di_1 .di_3 .ul_1 li a:hover {
+  color: red;
+}
+.di_1 .di_3 .ul_1 .li_2 {
+  border-bottom: 3px red solid;
+  color: red;
+}
 .di_1 .di_3 .ul_1 li:hover {
   border-bottom: 3px red solid;
   color: red;
@@ -96,6 +109,9 @@
 }
 .di_1 .di_4 ul li a {
   color: #a4acbf;
+}
+.di_1 .di_4 ul li .a_1 {
+  color: #000;
 }
 .di_1 .di_4 ul li a:hover {
   color: #000;
@@ -137,7 +153,7 @@
 }
 .di_1 .di_5 .di_8 .di_7 .ul__1 .li__1 .a__1 .span__3 {
   display: inline-block;
-  background-color: red;
+  background-color: #dfe20f;
   color: #ffffff;
   border-radius: 0 10px;
   position: absolute;
