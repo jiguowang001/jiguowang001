@@ -168,7 +168,7 @@ article .zhuti div:nth-child(2) ul li:nth-child(1) {
   margin-left: 52px;
 }
 .lunbotu .xuanran {
-  width: 2500px;
+  width: 2290px;
   height: 241px;
   margin: auto;
 }
@@ -250,14 +250,14 @@ article .zhuti div:nth-child(2) ul li:nth-child(1) {
   width: 37px;
   height: 78px;
   position: absolute;
-  left: 14px;
+  left: 0px;
   top: 140px;
 }
 .lunbotu .you {
   width: 37px;
   height: 78px;
   position: absolute;
-  right: 5px;
+  right: 0px;
   top: 140px;
 }
 /*导购精选*/

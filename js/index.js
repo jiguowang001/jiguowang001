@@ -1,4 +1,71 @@
 window.onload = function() {
+
+    var imgsBox = document.querySelector('.xuanran');
+    var aRight = document.querySelector('.you');
+    var aLeft = document.querySelector('.zuo');
+    var currI = 0;
+    var newImg = imgsBox.children[0].cloneNode(true);
+    imgsBox.appendChild(newImg);
+    aRight.onclick = function() {
+        // 到边界最后一张的处理
+        if (currI >= 7) {
+            currBtn(0)
+            currI += 1;
+            imgsBox.style.transition = 'margin-left .5s'
+            imgsBox.style.marginLeft = -255 * currI + 'px'
+                // 从试图上的最后一张走到最后一张的下一张结束，瞬间回到0
+            setTimeout(function() {
+                imgsBox.style.transition = 'none'
+                imgsBox.style.marginLeft = 0
+                currI = 0
+            }, 500);
+        } else {
+            currI += 1;
+            imgsBox.style.transition = 'margin-left .5s'
+            imgsBox.style.marginLeft = -255 * currI + 'px'
+            currBtn(currI)
+        }
+        // 阻止默认行为
+        return false;
+    }
+
+
+    aLeft.onclick = function() {
+            // 到边界0 的处理
+            if (currI <= 0) {
+                currBtn(8)
+                    // 一刹那就滚动到最后一张
+                currI = 7
+                imgsBox.style.transition = 'none'
+                imgsBox.style.marginLeft = -255 * 4 + 'px'
+                    // 慢慢滚动到倒数第二张
+                setTimeout(function() {
+                    currI = currI - 1;
+                    imgsBox.style.transition = 'margin-left .5s'
+                    imgsBox.style.marginLeft = -255 * currI + 'px'
+                }, 0)
+            } else {
+                currI = currI - 1;
+                imgsBox.style.transition = 'margin-left .5s'
+                imgsBox.style.marginLeft = -255 * currI + 'px'
+                    //从0 向下标为4的图片滚动
+                currBtn(currI)
+            }
+        }
+        // 自动轮播
+    setInterval(() => {
+        aRight.click()
+    }, 3000);
+    // 初始状态
+    currBtn(0)
+
+    function currBtn(index) {
+        for (var j = 0; j < dots.length; j++) {
+            dots[j].style.opacity = '.3'
+        }
+        dots[index].style.opacity = '.6'
+    }
+
     // 动画
     function k(l) {
         if (l < 10) {
