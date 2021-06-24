@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.gcx {
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(#fff, #d0d0d0);
+}
+.faxian {
+  width: 1000px;
+  height: 140px;
+  border: 1px solid #fff;
+  margin: auto;
+  position: relative;
+}
+.faxian p {
+  width: 100px;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 50px;
+}
+.faxian ul {
+  width: 200px;
+  list-style: none;
+  margin: 27px auto 0px;
+}
+.faxian ul li {
+  float: left;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  color: #a3a1a2;
+  line-height: 30px;
+}
+.faxian ul li a {
+  width: 100px;
+  height: 30px;
+  display: block;
+  text-decoration: none;
+  color: #a3a1a2;
+}
+.faxian ul li a:hover {
+  cursor: pointer;
+  color: red;
+  border-bottom: 3px solid red ;
+}
+.faxian ul .hong {
+  color: red;
+  border-bottom: 3px solid red ;
+}
+/*最新*/
+aside {
+  width: 100%;
+  background-color: #f7f7f7;
+  overflow: hidden;
+  /*加载更多*/
+}
+aside .zhuti {
+  width: 1070px;
+  margin: auto;
+  position: relative;
+}
+aside .zhuti .daogou {
+  margin-top: 20px;
+  overflow: hidden;
+}
+aside .zhuti .daogou .kw {
+  position: relative;
+  border: 1px solid #b7babf;
+  width: 200px;
+  border-radius: 10px;
+  float: left;
+  margin-left: 52px;
+  margin-bottom: 20px;
+}
+aside .zhuti .daogou .kw img {
+  border-radius: 10px;
+}
+aside .zhuti .daogou .kw .ziti {
+  font-size: 12px;
+  text-align: center;
+  margin: 20px 0px;
+}
+aside .zhuti .daogou .kw .ziti a {
+  text-decoration: none;
+  color: #000;
+}
+aside .zhuti .daogou .kw .ziti a:hover {
+  color: red;
+}
+aside .zhuti .daogou .kw .jiaqian {
+  float: left;
+  color: red;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+aside .zhuti .daogou .kw .xin {
+  float: right;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  color: #b7babf;
+  font-size: 12px;
+}
+aside .zhuti .daogou .kw .no {
+  position: absolute;
+  bottom: -15px;
+  left: 0px;
+  border-radius: 10px;
+}
+aside .jiazai {
+  position: relative;
+  width: 150px;
+  margin: 30px auto;
+  text-align: center;
+}
+aside .jiazai .kl {
+  text-decoration: none;
+  color: red;
+  display: inline-block;
+}
+aside .jiazai .kl:hover {
+  cursor: pointer;
+}
+aside .ml {
+  display: none;
+  color: red;
+}
+aside .ml img {
+  vertical-align: middle;
+}
+aside .ml:hover {
+  cursor: pointer;
+}
+aside .xianshi {
+  width: 20px;
+  text-align: center;
+  position: absolute;
+  bottom: -28px;
+  left: 525px;
+}
