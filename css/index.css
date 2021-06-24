@@ -253,12 +253,18 @@ article .zhuti div:nth-child(2) ul li:nth-child(1) {
   left: 0px;
   top: 140px;
 }
+.lunbotu .zuo:hover {
+  cursor: pointer;
+}
 .lunbotu .you {
   width: 37px;
   height: 78px;
   position: absolute;
   right: 0px;
   top: 140px;
+}
+.lunbotu .you:hover {
+  cursor: pointer;
 }
 /*导购精选*/
 section .zhuti {

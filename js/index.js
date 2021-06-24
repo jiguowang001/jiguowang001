@@ -8,7 +8,7 @@ window.onload = function() {
             return '' + l;
         }
     }
-
+    //倒计时
     function fn() {
         var before = new Date(), //当前时间
             assign = new Date('7,1,2021,00:00:00'), //指定时间
@@ -25,7 +25,6 @@ window.onload = function() {
         q.style.display = 'none';
         w.style.display = 'block';
     }
-    console.log(w);
     w.onclick = function() {
             w.style.display = 'none';
             q.style.display = 'block';
@@ -36,11 +35,10 @@ window.onload = function() {
     var aLeft = document.querySelector('.zuo');
     var currI = 0;
     var newImg = imgsBox.children[0].cloneNode(true);
-    imgsBox.appendChild(newImg)
+    imgsBox.appendChild(newImg);
     aRight.onclick = function() {
         // 到边界最后一张的处理
         if (currI >= 7) {
-            currBtn(0)
             currI += 1;
             imgsBox.style.transition = 'margin-left .5s'
             imgsBox.style.marginLeft = -255 * currI + 'px'
@@ -54,18 +52,15 @@ window.onload = function() {
             currI += 1;
             imgsBox.style.transition = 'margin-left .5s'
             imgsBox.style.marginLeft = -255 * currI + 'px'
-            currBtn(currI)
         }
         // 阻止默认行为
         return false;
     }
 
-
     aLeft.onclick = function() {
             // 到边界0 的处理
             if (currI <= 0) {
-                currBtn(8)
-                    // 一刹那就滚动到最后一张
+                // 一刹那就滚动到最后一张
                 currI = 7
                 imgsBox.style.transition = 'none'
                 imgsBox.style.marginLeft = -255 * 4 + 'px'
@@ -79,23 +74,12 @@ window.onload = function() {
                 currI = currI - 1;
                 imgsBox.style.transition = 'margin-left .5s'
                 imgsBox.style.marginLeft = -255 * currI + 'px'
-                    //从0 向下标为4的图片滚动
-                currBtn(currI)
             }
         }
         // 自动轮播
     setInterval(() => {
         aRight.click()
     }, 3000);
-    // 初始状态
-    currBtn(0)
-
-    function currBtn(index) {
-        for (var j = 0; j < dots.length; j++) {
-            dots[j].style.opacity = '.3'
-        }
-        dots[index].style.opacity = '.6'
-    }
 
 
 }
