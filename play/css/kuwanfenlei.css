@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.qfd {
+  clear: both;
+}
+.gcx {
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(#fff, #d0d0d0);
+}
+.faxian {
+  width: 1000px;
+  height: 140px;
+  border: 1px solid #fff;
+  margin: auto;
+  position: relative;
+}
+.faxian p {
+  width: 100px;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 50px;
+}
+.faxian ul {
+  width: 300px;
+  list-style: none;
+  margin: 27px auto 0px;
+}
+.faxian ul li {
+  float: left;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  color: #a3a1a2;
+  line-height: 30px;
+}
+.faxian ul li a {
+  width: 100px;
+  height: 30px;
+  display: block;
+  text-decoration: none;
+  color: #a3a1a2;
+}
+.faxian ul li a:hover {
+  cursor: pointer;
+  color: red;
+  border-bottom: 3px solid red ;
+}
+.faxian ul .hong {
+  color: red;
+  border-bottom: 3px solid red ;
+}
+/*主题*/
+aside {
+  width: 100%;
+  background-color: #f7f7f7;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+aside .zhuti {
+  overflow: hidden;
+  width: 1000px;
+  border: 1px solid #aaa9a9;
+  background-color: #fff;
+  border-radius: 3px;
+  margin: auto;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+aside .zhuti div:nth-child(1) {
+  font-size: 14px;
+  line-height: 30px;
+  margin-left: 1px;
+}
+aside .zhuti div:nth-child(1) span:nth-child(1) {
+  border-left: 3px solid red;
+}
+aside .zhuti div:nth-child(1) span:nth-child(2) {
+  margin-left: 20px;
+}
+aside .zhuti .ton {
+  float: left;
+  width: 100px;
+  height: 140px;
+  margin: 20px 0px 0px 50px;
+}
+aside .zhuti .ton p {
+  margin-top: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+aside .zhuti .ton p a {
+  color: #979390;
+  text-decoration: none;
+}
+aside .zhuti .ton p a:hover {
+  color: red;
+}
+aside .zhuti .ufo {
+  width: 1000px;
+  border-top: 1px dashed #808080;
+}
+aside .zhuti .ufo ul {
+  list-style: none;
+}
+aside .zhuti .ufo ul li {
+  width: 130px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+aside .zhuti .ufo ul li a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #979390;
+}
+aside .zhuti .ufo ul li a:hover {
+  color: red;
+}
+aside .bmw {
+  width: 1000px;
+  border: 1px solid #aaa9a9;
+  background-color: #fff;
+  border-radius: 3px;
+  margin: 20px auto;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+aside .bmw div:nth-child(1) {
+  font-size: 14px;
+  line-height: 30px;
+  margin-left: 1px;
+}
+aside .bmw div:nth-child(1) span:nth-child(1) {
+  border-left: 3px solid red;
+}
+aside .bmw div:nth-child(1) span:nth-child(2) {
+  margin-left: 20px;
+}
+aside .bmw .ton {
+  float: left;
+  width: 100px;
+  height: 140px;
+  margin: 20px 0px 0px 50px;
+}
+aside .bmw .ton p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #979390;
+  text-align: center;
+}
+aside .bmw .ton p a {
+  color: #979390;
+  text-decoration: none;
+}
+aside .bmw .ton p a:hover {
+  color: red;
+}
+aside .bmw .ufo {
+  width: 1000px;
+  border-top: 1px dashed #808080;
+}
+aside .bmw .ufo ul {
+  list-style: none;
+}
+aside .bmw .ufo ul li {
+  width: 130px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+aside .bmw .ufo ul li a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #979390;
+}
+aside .bmw .ufo ul li a:hover {
+  color: red;
+}
