@@ -1,0 +1,186 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.box {
+  width: 100%;
+  border-bottom: 2px solid #a3a3a3;
+  height: 74px;
+}
+.banx {
+  width: 1080px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+ul {
+  list-style: none;
+  overflow: hidden;
+  display: inline-block;
+}
+ul li {
+  float: left;
+  margin-right: 50px;
+}
+.usy {
+  margin-left: 65px;
+}
+.ubg {
+  margin-right: 296px;
+}
+.sszc {
+  display: inline-block;
+}
+.tu1 {
+  margin-right: 31px;
+}
+.zhuce {
+  float: right;
+  text-align: center;
+  width: 52px;
+  height: 27px;
+  color: #f75441;
+  border: 1px solid #f75441;
+  background-color: white;
+  outline: none;
+}
+.zuo {
+  width: 272px;
+  float: left;
+  color: #404040;
+  background-color: #f3f3f3;
+  padding: 25px 25px 20px 20px;
+  margin-top: 50px;
+}
+.zuo h2 {
+  text-indent: 1em;
+  margin-bottom: 10px;
+}
+.zuo dl dt {
+  text-indent: 26px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+}
+.zuo dl dd {
+  text-indent: 46px;
+  line-height: 26px;
+}
+.zuo dl {
+  margin-bottom: 20px;
+}
+.you {
+  width: 688px;
+  float: right;
+  color: #404040;
+  background-color: #f3f3f3;
+  padding: 25px 25px 20px 20px;
+  margin-top: 50px;
+  margin-left: 30px;
+  padding-right: 20px;
+}
+.you h2 {
+  text-indent: 1em;
+  margin-bottom: 10px;
+}
+.you dl dt {
+  margin-left: 26px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+  color: #3f4752;
+}
+.you dl dd {
+  margin-left: 26px;
+  line-height: 26px;
+  color: #4e4e4c;
+}
+.you dl {
+  margin-bottom: 20px;
+}
+.dibu {
+  width: 100%;
+  height: 360px;
+  background-color: #505050;
+  margin-top: 53px;
+  position: relative;
+}
+.dbtu {
+  margin-top: 40px;
+  display: inline-block;
+  float: left;
+}
+.dbtu2 {
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 20px;
+  float: left;
+}
+.p1 {
+  color: #82827a;
+  margin-bottom: 33px;
+  margin-top: 20px;
+}
+.p2 {
+  color: #82827a;
+}
+.db3 {
+  float: left;
+  margin-left: 16px;
+  margin-top: 40px;
+}
+.db3 dt {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.db3 dd {
+  color: #82827a;
+}
+.db4 {
+  float: left;
+  margin-left: 16px;
+  margin-top: 40px;
+}
+.db4 dt {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.db4 dd {
+  color: #82827a;
+}
+.db5 {
+  float: left;
+  margin-left: 16px;
+  margin-top: 40px;
+}
+.db5 dt {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.db5 dd {
+  color: #82827a;
+}
+.db6 {
+  float: left;
+  margin-left: 16px;
+  margin-top: 40px;
+}
+.db6 dt {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.db6 dd {
+  color: #82827a;
+}
+.db7 {
+  color: #82827a;
+  position: absolute;
+  bottom: 13px;
+  left: 540px;
+}
+a {
+  text-decoration: none;
+  color: #82827a;
+}
+a:hover {
+  color: red;
+}
